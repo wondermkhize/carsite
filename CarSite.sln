@@ -2,12 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{75C6538F-2031-48AA-BCD3-E99BAFE8FD50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "AuctionService\AuctionService.csproj", "{95066DC5-D211-41EB-99C5-9EFAF8BFB0B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{95066DC5-D211-41EB-99C5-9EFAF8BFB0B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17148D6F-7571-4218-83DE-AB39C5869479}"
 	ProjectSection(SolutionItems) = preProject
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchService", "src\SearchService\SearchService.csproj", "{6AD31DC8-CF84-4399-A13E-526064D24E83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,11 +18,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{95066DC5-D211-41EB-99C5-9EFAF8BFB0B5} = {75C6538F-2031-48AA-BCD3-E99BAFE8FD50}
+		{6AD31DC8-CF84-4399-A13E-526064D24E83} = {75C6538F-2031-48AA-BCD3-E99BAFE8FD50}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{95066DC5-D211-41EB-99C5-9EFAF8BFB0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{95066DC5-D211-41EB-99C5-9EFAF8BFB0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95066DC5-D211-41EB-99C5-9EFAF8BFB0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95066DC5-D211-41EB-99C5-9EFAF8BFB0B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD31DC8-CF84-4399-A13E-526064D24E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD31DC8-CF84-4399-A13E-526064D24E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD31DC8-CF84-4399-A13E-526064D24E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD31DC8-CF84-4399-A13E-526064D24E83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
